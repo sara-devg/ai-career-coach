@@ -1,7 +1,7 @@
 # importing streamlit, enviroment variable and os bridger 
 import os
 import streamlit as st
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 # importing lanagchain and ai capabilities 
 from langchain_openai import ChatOpenAI
 from openai import OpenAI
@@ -29,7 +29,7 @@ from audio_recorder_streamlit import audio_recorder
 
 
 # security and key vault 
-load_dotenv()
+#load_dotenv()
 
 # variables 
 if "login_details" not in st.session_state:
